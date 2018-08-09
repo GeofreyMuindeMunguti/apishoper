@@ -13,7 +13,7 @@ class Supermarket extends Migration
      */
     public function up()
     {
-         Schema::create('Supermarkets', function (Blueprint $table) {
+         Schema::create('supermarkets', function (Blueprint $table) {
             $table->increments('super_id');
             $table->string('name');
             $table->string('latitude');
